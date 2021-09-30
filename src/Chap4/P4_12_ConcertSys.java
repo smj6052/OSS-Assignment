@@ -6,7 +6,7 @@ import java.util.Scanner;
  */
 class Seat{
 	public String seats[];
-	public void Seat() {
+	public Seat() {
 		seats=new String[10];
 		for(int i=0;i<seats.length;i++) {
 			seats[i]="---";
@@ -35,9 +35,7 @@ class Seat{
 			}
 		}
 		return false;
-		
 	}
-	
 }
 
 class BSystem {
@@ -91,24 +89,27 @@ public class P4_12_ConcertSys {
 	public static void main(String[] args) {
 		System.out.println("명품콘서트홀 예약 시스템입니다.");
 		BSystem sys=new BSystem();
+		Scanner sc=new Scanner(System.in);
 		while(true) {
 			System.out.print("예약:1, 조회:2, 취소:3, 끝내기:4 >>");
-			Scanner sc=new Scanner(System.in);
 			int ans=sc.nextInt();
 			switch(ans){
 			case 1:
 				sys.tBook();
-				
+				break;
 			case 2:
 				sys.check();
+				break;
 			case 3:
 				sys.cancel();
+				break;
 			case 4:
 				sc.close();
 				return;		//종료
+			default :
+	            System.out.println("다시 입력해 주세요.");
 			}
-		}
-		
+		}		
 	}
 }
 
