@@ -1,4 +1,4 @@
-package chap3;
+package Chap3;
 
 public class P3_2 {
 

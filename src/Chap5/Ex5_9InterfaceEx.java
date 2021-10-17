@@ -23,7 +23,6 @@ class PDA { // 클래스 작성
 }
 //SmartPhone 클래스는 PDA를 상속받고,
 //MobilePhoneInterface와 MP3Interface 인터페이스에 선언된 추상 메소드를 구현
-
 class SmartPhone extends PDA implements MobilePhoneInterface, MP3Interface {
 	// MobilePhoneInterface의 추상 메소드 구현
 	@Override
@@ -65,5 +64,5 @@ public class Ex5_9InterfaceEx {
 	phone.play();
 	System.out.println("3과 5를 더하면 " + phone.calculate(3,5));
 	phone.schedule();
-}
+	}
 }
