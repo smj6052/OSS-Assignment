@@ -1,6 +1,6 @@
 package Chap6;
 //String class method È°¿ë
-public class Ex6_7StringEx {
+public class Ex6_07StringEx {
 	public static void main(String[] args) {
 		String a = new String(" C#");
 		String b = new String(",C++ ");

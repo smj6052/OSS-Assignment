@@ -1,6 +1,6 @@
 package Chap6;
 
-public class Ex6_6AutoBoxingUnBoxingEx {
+public class Ex6_06AutoBoxingUnBoxingEx {
 	public static void main(String[] args) {
 		int n = 10;
 		Integer intObject = n; // auto boxing

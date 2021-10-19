@@ -6,7 +6,7 @@ class Point1 {
 		this.y = y;
 	}
 }
-public class EX6_1ObjectPropertyEx {
+public class EX6_01ObjectPropertyEx {
 	public static void print(Object obj) {
 		System.out.println(obj.getClass().getName()); // 클래스 이름
 		System.out.println(obj.hashCode()); // 해시 코드 값

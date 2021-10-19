@@ -10,7 +10,7 @@ class Point2 {
 	}
 }
 
-public class Ex6_2ToStringEx {
+public class Ex6_02ToStringEx {
 	public static void main(String [] args) {
 		Point2 p = new Point2(2,3);
 		System.out.println(p.toString());

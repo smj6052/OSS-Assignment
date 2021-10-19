@@ -15,7 +15,7 @@ class Rect {
 			return false;
 	}
 }
-public class Ex6_4EqualsEx {
+public class Ex6_04EqualsEx {
 	public static void main(String[] args) {
 		Rect a = new Rect(2,3);
 		Rect b = new Rect(3,2);

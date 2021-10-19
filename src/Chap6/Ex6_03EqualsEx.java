@@ -11,7 +11,7 @@ class Point {
 		else return false;
 	}
 }
-public class Ex6_3EqualsEx {
+public class Ex6_03EqualsEx {
 	public static void main(String[] args) {
 		Point a = new Point(2,3);
 		Point b = new Point(2,3);

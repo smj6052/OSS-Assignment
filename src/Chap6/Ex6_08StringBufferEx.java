@@ -1,6 +1,6 @@
 package Chap6;
 
-public class Ex6_8StringBufferEx {
+public class Ex6_08StringBufferEx {
 	public static void main(String[] args) {
 		StringBuffer sb = new StringBuffer("This");
 		sb.append(" is pencil"); // 문자열 덧붙이기
